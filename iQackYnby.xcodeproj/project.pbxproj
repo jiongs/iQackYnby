@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE66A881174468330076E904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66A880174468330076E904 /* UIKit.framework */; };
+		AE66A883174468330076E904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66A882174468330076E904 /* Foundation.framework */; };
+		AE66A885174468330076E904 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66A884174468330076E904 /* CoreGraphics.framework */; };
+		AE66A88B174468330076E904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE66A889174468330076E904 /* InfoPlist.strings */; };
+		AE66A88D174468330076E904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66A88C174468330076E904 /* main.m */; };
+		AE66A891174468330076E904 /* QackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66A890174468330076E904 /* QackAppDelegate.m */; };
+		AE66A893174468330076E904 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE66A892174468330076E904 /* Default.png */; };
+		AE66A895174468330076E904 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE66A894174468330076E904 /* Default@2x.png */; };
+		AE66A897174468330076E904 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE66A896174468330076E904 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE66A87D174468330076E904 /* iQackYnby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQackYnby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE66A880174468330076E904 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE66A882174468330076E904 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE66A884174468330076E904 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE66A888174468330076E904 /* iQackYnby-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iQackYnby-Info.plist"; sourceTree = "<group>"; };
+		AE66A88A174468330076E904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE66A88C174468330076E904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE66A88E174468330076E904 /* iQackYnby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iQackYnby-Prefix.pch"; sourceTree = "<group>"; };
+		AE66A88F174468330076E904 /* QackAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QackAppDelegate.h; sourceTree = "<group>"; };
+		AE66A890174468330076E904 /* QackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QackAppDelegate.m; sourceTree = "<group>"; };
+		AE66A892174468330076E904 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AE66A894174468330076E904 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AE66A896174468330076E904 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE66A87A174468330076E904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66A881174468330076E904 /* UIKit.framework in Frameworks */,
+				AE66A883174468330076E904 /* Foundation.framework in Frameworks */,
+				AE66A885174468330076E904 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE66A874174468330076E904 = {
+			isa = PBXGroup;
+			children = (
+				AE66A886174468330076E904 /* iQackYnby */,
+				AE66A87F174468330076E904 /* Frameworks */,
+				AE66A87E174468330076E904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE66A87E174468330076E904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE66A87D174468330076E904 /* iQackYnby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE66A87F174468330076E904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE66A880174468330076E904 /* UIKit.framework */,
+				AE66A882174468330076E904 /* Foundation.framework */,
+				AE66A884174468330076E904 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE66A886174468330076E904 /* iQackYnby */ = {
+			isa = PBXGroup;
+			children = (
+				AE66A88F174468330076E904 /* QackAppDelegate.h */,
+				AE66A890174468330076E904 /* QackAppDelegate.m */,
+				AE66A887174468330076E904 /* Supporting Files */,
+			);
+			path = iQackYnby;
+			sourceTree = "<group>";
+		};
+		AE66A887174468330076E904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE66A888174468330076E904 /* iQackYnby-Info.plist */,
+				AE66A889174468330076E904 /* InfoPlist.strings */,
+				AE66A88C174468330076E904 /* main.m */,
+				AE66A88E174468330076E904 /* iQackYnby-Prefix.pch */,
+				AE66A892174468330076E904 /* Default.png */,
+				AE66A894174468330076E904 /* Default@2x.png */,
+				AE66A896174468330076E904 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE66A87C174468330076E904 /* iQackYnby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE66A89A174468330076E904 /* Build configuration list for PBXNativeTarget "iQackYnby" */;
+			buildPhases = (
+				AE66A879174468330076E904 /* Sources */,
+				AE66A87A174468330076E904 /* Frameworks */,
+				AE66A87B174468330076E904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iQackYnby;
+			productName = iQackYnby;
+			productReference = AE66A87D174468330076E904 /* iQackYnby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE66A875174468330076E904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Qack;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "ji yongshan";
+			};
+			buildConfigurationList = AE66A878174468330076E904 /* Build configuration list for PBXProject "iQackYnby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE66A874174468330076E904;
+			productRefGroup = AE66A87E174468330076E904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE66A87C174468330076E904 /* iQackYnby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE66A87B174468330076E904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66A88B174468330076E904 /* InfoPlist.strings in Resources */,
+				AE66A893174468330076E904 /* Default.png in Resources */,
+				AE66A895174468330076E904 /* Default@2x.png in Resources */,
+				AE66A897174468330076E904 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE66A879174468330076E904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66A88D174468330076E904 /* main.m in Sources */,
+				AE66A891174468330076E904 /* QackAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE66A889174468330076E904 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE66A88A174468330076E904 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE66A898174468330076E904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE66A899174468330076E904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE66A89B174468330076E904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQackYnby/iQackYnby-Prefix.pch";
+				INFOPLIST_FILE = "iQackYnby/iQackYnby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE66A89C174468330076E904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQackYnby/iQackYnby-Prefix.pch";
+				INFOPLIST_FILE = "iQackYnby/iQackYnby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE66A878174468330076E904 /* Build configuration list for PBXProject "iQackYnby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66A898174468330076E904 /* Debug */,
+				AE66A899174468330076E904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE66A89A174468330076E904 /* Build configuration list for PBXNativeTarget "iQackYnby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66A89B174468330076E904 /* Debug */,
+				AE66A89C174468330076E904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE66A875174468330076E904 /* Project object */;
+}
